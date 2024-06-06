@@ -4,7 +4,7 @@
 
 GraphHopper is a fast and memory-efficient routing engine released under Apache License 2.0. It can be used as a Java library or standalone web server to calculate the distance, time, turn-by-turn instructions and many road attributes for a route between two or more points. Beyond this "A-to-B" routing it supports ["snap to road"](README.md#Map-Matching), [Isochrone calculation](README.md#Analysis), [mobile navigation](README.md#mobile-apps) and [more](README.md#Features). GraphHopper uses OpenStreetMap and GTFS data by default and it can import [other data sources too](README.md#OpenStreetMap-Support).
 
-# Modifications in this version
+## Modifications in this version
 
 -   Use Intellij IDA for running the code (https://www.jetbrains.com/idea/).
 -   Download the data files in [data](https://github.com/subrina0013/graphhopper_dmv/tree/master/data) folder.
@@ -13,6 +13,11 @@ GraphHopper is a fast and memory-efficient routing engine released under Apache 
 This version has the following modifications.
 
 -   The class [ghDMV](https://github.com/subrina0013/graphhopper_dmv/blob/master/example/src/main/java/com/graphhopper/example/ghDMV.java) searches for fastest route for all trips in the DMV region.. This is your main gh class to run in IDE.
+
+## Import into IntelliJ
+
+`File -> New -> Project from Version Control` paste the repository url and hit 'clone'. IntelliJ usually figures out
+that the project is a maven project. If not: `Right click on pom.xml -> import as maven project`.
 
 # Community
 
@@ -93,7 +98,7 @@ To get started you can try [GraphHopper Maps](README.md#graphhopper-maps), read 
 , [announcement](https://www.graphhopper.com/blog/2016/06/15/graphhopper-routing-engine-0-7-released/)
 </details>
 
-## GraphHopper Maps
+# GraphHopper Maps
 
 To see the road routing feature of GraphHopper in action please go to [GraphHopper Maps](https://graphhopper.com/maps).
 
